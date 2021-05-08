@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_cases"
+            android:icon="@drawable/ic_mail_outline_black_24dp"
+            android:title="Process List" />
+        <item
+            android:id="@+id/nav_draft"
+            android:icon="@drawable/ic_drafts_black_24dp"
+            android:title="Draft" />
+
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_disconnect"
+                android:icon="@drawable/ic_power_settings_new_black_24dp"
+                android:title="Disconnect" />
+
+        </menu>
+    </item>
+
+</menu>
